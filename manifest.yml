@@ -1,0 +1,7 @@
+---
+applications:
+- name: hello-sinatra
+  memory: 256M
+  instances: 1
+  host: hello-git-sinatra
+  path: .
